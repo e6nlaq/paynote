@@ -1,11 +1,11 @@
-import { Display } from "@fluentui/react-components";
+import { LargeTitle } from '@fluentui/react-components';
 
 function Home() {
-  return (
-    <>
-      <Display>PayHome</Display>
-    </>
-  );
+	return (
+		<>
+			<LargeTitle>PayNote</LargeTitle>
+		</>
+	);
 }
 
 export default Home;
